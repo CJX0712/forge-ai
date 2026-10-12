@@ -1,0 +1,6 @@
+# forge-ai 依赖
+# 核心库（forge_ai/）仅依赖 numpy
+# 验证台（verify.py）额外需要 scikit-learn + scipy 作为交叉验证 oracle
+numpy>=1.24
+scikit-learn>=1.5.0
+scipy>=1.10
