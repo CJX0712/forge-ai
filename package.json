@@ -1,0 +1,24 @@
+{
+  "name": "forge-ai",
+  "version": "1.0.0",
+  "description": "晨星旗舰 AI · Forge AI —— 零依赖、单文件、可复现的算法锻造库：世界顶级数学与算法内核，全量硬不变量可独立交叉验证",
+  "main": "src/test-runner.js",
+  "scripts": {
+    "test": "node src/test-runner.js",
+    "selftest": "node src/test-runner.js"
+  },
+  "keywords": [
+    "machine-learning", "deep-learning", "reinforcement-learning", "attention",
+    "transformer", "pca", "gmm", "em", "kmeans", "cart", "q-learning",
+    "zero-dependency", "jacobi-eigen", "cholesky", "gradient-check", "flagship-ai"
+  ],
+  "author": "晨星（CJX0712）",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CJX0712/forge-ai.git"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}

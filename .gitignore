@@ -1,3 +1,9 @@
+# 版本控制
+.DS_Store
+Thumbs.db
+*.log
+
+# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -6,4 +12,11 @@ dist/
 .venv/
 venv/
 .pytest_cache/
-.DS_Store
+
+# Node / JS
+node_modules/
+coverage/
+
+# 编辑器
+.vscode/
+.idea/
